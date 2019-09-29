@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "11526f5f-9058-459e-8c61-bbb0d70464f4",
+            "Value": {
+                "id": "b9bad94a-6a1b-4f8d-aa67-5e7c753bc0c4",
+                "resourcePath": "sprites\\spr_teddy_up\\spr_teddy_up.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1f6c52ab-7401-4d9f-a1e9-57f74e1d7e17",
             "Value": {
                 "id": "c071a6c6-6e92-4c92-8522-b5cdcc21375b",
@@ -52,6 +60,14 @@
                 "id": "72b3727f-d5d9-4082-8735-3e41e10ca91b",
                 "resourcePath": "views\\2e80940c-60c7-4143-ae6e-ad474d80c63f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3218b697-6f92-4740-9a5f-b54a2f308a05",
+            "Value": {
+                "id": "12c82fa7-d93a-4dc7-acbc-40c59ce9d70d",
+                "resourcePath": "sprites\\spr_teddy_down\\spr_teddy_down.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -79,6 +95,14 @@
             }
         },
         {
+            "Key": "4dfe9a52-a9a8-4ccc-8d9f-cc7f8518de97",
+            "Value": {
+                "id": "81bfc2a3-b3f9-4231-8713-068e91af671d",
+                "resourcePath": "sprites\\spr_teddy_right_walk\\spr_teddy_right_walk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "70950fa6-fdac-4a30-b049-961586efd9b3",
             "Value": {
                 "id": "eeca292f-2f1c-4253-a6a2-5faeffc390da",
@@ -90,8 +114,16 @@
             "Key": "719d33a3-6757-4c06-a840-936045df6d1c",
             "Value": {
                 "id": "efc9faa8-7c6e-4307-ad69-bf17e86fe36d",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\rm_test\\rm_test.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "823ddeb5-c18c-4ae6-8778-eb7118345150",
+            "Value": {
+                "id": "eae0aa32-6d79-480d-81ed-095eb88e2880",
+                "resourcePath": "sprites\\spr_teddy_left_walk\\spr_teddy_left_walk.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -103,11 +135,35 @@
             }
         },
         {
+            "Key": "8cc78e6f-aab7-45bf-8636-2bfad12d45a7",
+            "Value": {
+                "id": "c90bc584-0309-433d-bce5-7231ce6600a6",
+                "resourcePath": "sprites\\spr_teddy_left\\spr_teddy_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "903a4b16-381d-4938-987a-1c2ab7c955d8",
+            "Value": {
+                "id": "63091b50-d76d-4446-bf38-276c632f80a8",
+                "resourcePath": "sprites\\spr_teddy_up_walk\\spr_teddy_up_walk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "90c72562-cc1d-44ea-9680-3cbb7f5b7fc6",
             "Value": {
                 "id": "15d19cb9-c2dd-44b1-9a92-c8039490781e",
                 "resourcePath": "views\\90c72562-cc1d-44ea-9680-3cbb7f5b7fc6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "978d1a83-624c-468c-8ad9-57a384dc2b4d",
+            "Value": {
+                "id": "8de60cae-2260-4ac3-b3b3-b91084c85718",
+                "resourcePath": "sprites\\spr_teddy_right\\spr_teddy_right.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -127,6 +183,14 @@
             }
         },
         {
+            "Key": "bfd7d28f-c48a-40f6-9790-eb9612f5f207",
+            "Value": {
+                "id": "442206e9-b96b-4506-b397-0f7098409208",
+                "resourcePath": "objects\\obj_teddy\\obj_teddy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bfe4fec7-5f4e-4e8b-9905-ec8e69660532",
             "Value": {
                 "id": "fdecc2be-e8d1-4b8a-a9b4-97a897ccbd73",
@@ -140,6 +204,14 @@
                 "id": "61d7c52f-eada-431f-a3da-c9cee213fa36",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d458b877-8ab2-4621-bca0-8c6cd4069743",
+            "Value": {
+                "id": "24c58c2d-e0c6-4d64-ad0b-03a6c39331ff",
+                "resourcePath": "sprites\\spr_teddy_down_walk\\spr_teddy_down_walk.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
