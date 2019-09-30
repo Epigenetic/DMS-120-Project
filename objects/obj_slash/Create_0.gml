@@ -25,3 +25,5 @@ switch(teddy.sprite_index){
 	default:
 	show_debug_message("Error in obj_slash determining direction to face")
 }
+
+self.time = 20

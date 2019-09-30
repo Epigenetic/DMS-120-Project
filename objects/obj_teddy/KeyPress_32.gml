@@ -1,5 +1,8 @@
 var xoffset,yoffset
 
+if instance_exists(obj_slash)
+	return;
+
 switch self.sprite_index{
 	case spr_teddy_up:
 	case spr_teddy_up_walk:

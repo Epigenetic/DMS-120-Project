@@ -1,0 +1,1 @@
+self.spawn_time = 50

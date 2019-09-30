@@ -1,0 +1,1 @@
+self.target = instance_find(obj_bed,0)
