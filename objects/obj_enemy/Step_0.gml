@@ -1,3 +1,6 @@
+if self.status <= 0
+	instance_destroy(self)
+
 if target.x < self.x
 	self.hspeed = -2
 else if target.x > self.x

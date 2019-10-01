@@ -1,9 +1,9 @@
 var xoffset,yoffset
 
-if instance_exists(obj_slash)
+if instance_exists(obj_slash) //Don't attack if already attacking
 	return;
 
-switch self.sprite_index{
+switch self.sprite_index{ //Create the slash in the right place
 	case spr_teddy_up:
 	case spr_teddy_up_walk:
 	xoffset = 0
