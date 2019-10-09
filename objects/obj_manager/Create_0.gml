@@ -11,7 +11,7 @@ inst.schedule[0,4] = obj_enemy
 inst.schedule[1,0] = 200
 inst.schedule[1,1] = 200
 inst.schedule[1,2] = 200
-inst.scheudle[1,3] = 200
+inst.schedule[1,3] = 200
 inst.schedule[1,4] = 200
 inst.active = true
 //show_debug_message("First one made")
@@ -26,7 +26,7 @@ inst.schedule[0,4] = obj_enemy
 inst.schedule[1,0] = 200
 inst.schedule[1,1] = 200
 inst.schedule[1,2] = 200
-inst.scheudle[1,3] = 200
+inst.schedule[1,3] = 200
 inst.schedule[1,4] = 200
 inst.active = true
 //show_debug_message("Second one made")
@@ -41,7 +41,7 @@ inst.schedule[0,4] = obj_boss
 inst.schedule[1,0] = 200
 inst.schedule[1,1] = 200
 inst.schedule[1,2] = 200
-inst.scheudle[1,3] = 200
+inst.schedule[1,3] = 200
 inst.schedule[1,4] = 200
 inst.active = true
 //show_debug_message("Third one made")

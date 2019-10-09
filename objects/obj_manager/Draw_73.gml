@@ -1,4 +1,4 @@
-/// @description Draw the health
+/// @description Draw the health and detect win/loss conditions
 
 draw_set_color(c_black)
 
@@ -18,6 +18,6 @@ while(i < health){
 
 if health < 0{
 	draw_text(room_width/2,room_height/2,"You Lose")
-}else if instance_number(obj_enemy) == 0 && global.spawn_limit == 0{
+}else if instance_number(obj_enemy) == 0 && instance_number(obj_spawn) == 0{
 	draw_text(room_width/2,room_height/2,"You Win")
 }
