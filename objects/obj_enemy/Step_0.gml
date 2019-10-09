@@ -2,16 +2,16 @@ if self.status <= 0
 	instance_destroy(self)
 
 if target.x < self.x
-	self.hspeed = -2
+	self.hspeed = -1*self.speedval
 else if target.x > self.x
-	self.hspeed = 2
+	self.hspeed = self.speedval
 else
 	self.hspeed = 0
 	
 if target.y+64 < self.y
-	self.vspeed = -2
+	self.vspeed = -1*self.speedval
 else if target.y+64 > self.y
-	self.vspeed = 2
+	self.vspeed = self.speedval
 else 
 	self.vspeed = 0
 
