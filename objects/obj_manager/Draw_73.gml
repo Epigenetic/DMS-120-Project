@@ -17,6 +17,7 @@ while(i < health){
 
 if health < 0{
 	draw_text(room_width/2,room_height/2,"You Lose")
+	room_goto(rm_title)
 }else if instance_number(obj_enemy) == 0 && instance_number(obj_spawn) == 0{
 	draw_text(room_width/2,room_height/2,"You Win")
 	self.countdown = true

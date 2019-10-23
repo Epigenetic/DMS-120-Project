@@ -1,5 +1,3 @@
-show_debug_message(self.timer)
-
 if not self.countdown
 	return;
 	
