@@ -1,5 +1,7 @@
 /// @description Make the spawners
 // Spawn tables are enemy to spawn in first array, how long to wait before next spawn in the next second
+self.countdown = false
+self.timer = 100
 
 var inst = instance_create_depth(16,room_height/2,self.depth,obj_spawn)
 inst.schedule[0,0] = obj_enemy
