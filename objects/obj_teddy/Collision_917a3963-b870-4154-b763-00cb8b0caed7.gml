@@ -1,9 +1,9 @@
-if place_meeting(self.x+33,self.y,obj_bed)
+if place_meeting(self.x+(self.sprite_width*self.image_xscale)/4,self.y,obj_bed)
 	self.hspeed = 0
-else if place_meeting(self.x-33,self.y,obj_bed)
+else if place_meeting(self.x-(self.sprite_width*self.image_xscale)/4,self.y,obj_bed)
 	self.hspeed = 0
 
-if place_meeting(self.x,self.y+33,obj_bed)
+if place_meeting(self.x,self.y+(self.sprite_height*self.image_yscale)/4,obj_bed)
 	self.vspeed = 0
-else if place_meeting(self.x,self.y-33,obj_bed)
+else if place_meeting(self.x,self.y-(self.sprite_height*self.image_yscale)/4,obj_bed)
 	self.vspeed = 0
