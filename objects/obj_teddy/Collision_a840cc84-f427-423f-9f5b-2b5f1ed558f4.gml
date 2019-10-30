@@ -1,5 +1,5 @@
 if other.type == noone 
-	return
+	return;
 switch(other.type){
 	case spr_fluff:
 	health++
