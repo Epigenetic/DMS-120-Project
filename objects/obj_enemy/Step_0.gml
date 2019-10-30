@@ -8,9 +8,9 @@ else if target.x > self.x
 else
 	self.hspeed = 0
 	
-if target.y+self.sprite_height < self.y
+if target.y + (target.sprite_height*target.image_yscale)/4 +self.sprite_height < self.y
 	self.vspeed = -1*self.speedval
-else if target.y+self.sprite_height > self.y
+else if target.y+(target.sprite_height*target.image_yscale)/4+self.sprite_height > self.y
 	self.vspeed = self.speedval
 else 
 	self.vspeed = 0
