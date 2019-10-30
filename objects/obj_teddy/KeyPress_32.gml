@@ -8,6 +8,7 @@ switch self.sprite_index{ //Create the slash in the right place
 	case spr_teddy_up_walk:
 	xoffset = 0
 	yoffset = -64
+	self.sprite_index = spr_teddy_up
 	break
 	
 	case spr_teddy_down:
@@ -29,8 +30,7 @@ switch self.sprite_index{ //Create the slash in the right place
 	break
 	
 	default:
-	show_debug_message("Error in obj_teddy determining where to spawn obj_slash")
-	show_debug_message(self.image_index)
+	show_debug_message("Error in obj_teddy determining where to spawn obj_slash: " + string(self.sprite_index))
 	break
 }
 
