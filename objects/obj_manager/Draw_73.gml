@@ -1,5 +1,4 @@
 /// @description Draw the health and detect win/loss conditions
-
 draw_set_color(c_black)
 
 var i = 0
@@ -18,6 +17,8 @@ while(i < health){
 
 if health < 0{
 	draw_text(room_width/2,room_height/2,"You Lose")
+	room_goto(rm_title)
 }else if instance_number(obj_enemy) == 0 && instance_number(obj_spawn) == 0{
 	draw_text(room_width/2,room_height/2,"You Win")
+	self.countdown = true
 }
