@@ -21,3 +21,5 @@ if self.vspeed == 0 && self.hspeed == 0{
 		health -= self.damage
 	}
 }
+
+self.image_angle = point_direction(self.x,self.y,target.x,target.y) - 90
