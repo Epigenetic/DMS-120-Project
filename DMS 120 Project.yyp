@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "989002de-1a0a-4734-9810-bdf0079bd2c1",
+            "Value": {
+                "id": "b2e00f20-10ca-41a1-bc4f-f6917d41b945",
+                "resourcePath": "sprites\\spr_toychest_shaking\\spr_toychest_shaking.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9fee317d-6677-414b-b187-03b82af358dd",
             "Value": {
                 "id": "c5d641fd-bcb9-490f-b447-3735a5dd86b5",
