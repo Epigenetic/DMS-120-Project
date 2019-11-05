@@ -1,6 +1,6 @@
 //show_debug_message("My spawn timer: " + string(self.spawn_timer))
 //show_debug_message("Nasty timer " + string(self.nasty_time))
-show_debug_message("Sprite: " + string(self.image_index))
+//show_debug_message("Sprite: " + string(self.image_index))
 if(self.sprite_index != spr_toychest_shake){
 	if(self.nasty_time > 0){
 		self.nasty_time--

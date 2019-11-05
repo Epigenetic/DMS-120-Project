@@ -87,14 +87,6 @@
             }
         },
         {
-            "Key": "2d1dff33-a758-46fc-84a0-f3db261be4a5",
-            "Value": {
-                "id": "4388b316-fcc8-40bf-8ad7-83c4cab55a0b",
-                "resourcePath": "sprites\\spr_toychest_shake\\spr_toychest_shake.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "2e80940c-60c7-4143-ae6e-ad474d80c63f",
             "Value": {
                 "id": "72b3727f-d5d9-4082-8735-3e41e10ca91b",
