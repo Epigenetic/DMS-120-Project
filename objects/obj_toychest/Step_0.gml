@@ -7,12 +7,13 @@ if(self.sprite_index != spr_toychest_shake){
 	}else if (self.nasty_time == 0){
 		show_debug_message("Changed sprite")
 		self.sprite_index = spr_toychest_shake
-		self.nasty_time = 100
+		self.nasty_time = 200
 	}
 }else{
 	if(--self.nasty_time == 0){
 		self.sprite_index = spr_toychest
 		instance_create_depth(self.x+self.sprite_width,self.y,self.depth,obj_enemy)
+		self.nasty_time = floor(random_range(0,20)*20)
 	}
 }
 
