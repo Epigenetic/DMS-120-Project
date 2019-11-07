@@ -1,25 +1,14 @@
 if self.status <= 0
 	instance_destroy(self)
 
-if target.x < self.x
-	self.hspeed = -1*self.speedval
-else if target.x > self.x
-	self.hspeed = self.speedval
-else
-	self.hspeed = 0
-	
-if target.y + (target.sprite_height*target.image_yscale)/4 +self.sprite_height < self.y
-	self.vspeed = -1*self.speedval
-else if target.y+(target.sprite_height*target.image_yscale)/4+self.sprite_height > self.y
-	self.vspeed = self.speedval
-else 
-	self.vspeed = 0
-
-if self.vspeed == 0 && self.hspeed == 0{
+//show_debug_message(point_distance(self.x,self.y,target.x,target.y))
+if(point_distance(self.x,self.y,target.x,target.y) < 256){
 	if(self.hit_timer--	== 0){
 		self.hit_timer = 25
 		health -= self.damage
 	}
 }
+
+mp_potential_step(self.target.x,self.target.y,self.speedval,false)
 
 self.image_angle = point_direction(self.x,self.y,target.x,target.y) - 90
