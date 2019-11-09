@@ -1,10 +1,10 @@
 if self.status <= 0
 	instance_destroy(self)
 
-//show_debug_message(point_distance(self.x,self.y,target.x,target.y))
-if(point_distance(self.x,self.y,target.x,target.y) < 256){
+//show_debug_message(string(point_distance(self.x,self.y,target.x,target.y)) + " " + string(self.sprite_width))
+if(point_distance(self.x,self.y,target.x,target.y) < self.sprite_width*2){
 	if(self.hit_timer--	== 0){
-		self.hit_timer = 25
+		self.hit_timer = 200
 		health -= self.damage
 	}
 }
