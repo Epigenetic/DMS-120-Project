@@ -96,7 +96,7 @@ case rm_level1:
 	break;
 	
 	case rm_level3:
-	var inst = instance_create_depth(170,room_height/2,self.depth,obj_spawn)
+	var inst = instance_create_depth(220,room_height/2,self.depth,obj_spawn)
 	inst.schedule[0,0] = obj_enemy
 	inst.schedule[0,1] = obj_enemy
 	inst.schedule[0,2] = obj_enemy
