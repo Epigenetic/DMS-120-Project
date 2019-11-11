@@ -8,10 +8,10 @@ while(i < health){
 	//show_debug_message(j)
 	if i + 2 <= health{
 		i+= 2
-		draw_sprite(spr_health_full,0,16 + j++*32,32)
+		draw_sprite(spr_health_full,0,16 + j++*64,32)
 	}else{
 		i++
-		draw_sprite(spr_health_half,0,16 + j++*32,32)
+		draw_sprite(spr_health_half,0,16 + j++*64,32)
 	}
 }
 
