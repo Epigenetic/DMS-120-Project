@@ -28,9 +28,20 @@ if(self.spawn_timer == 0){
 		pickup.sprite_index = spr_fluff
 		break
 		
-		case loot.shield:
+		case loot.dmg:
+		var pickup = instance_create_depth(self.x+self.sprite_width,self.y,self.depth,obj_pickup)
+		pickup.type = spr_dmg_up
+		pickup.sprite_index = spr_dmg_up
 		
-		case loot.sword:
+		case loot.spd:
+		var pickup = instance_create_depth(self.x+self.sprite_width,self.y,self.depth,obj_pickup)
+		pickup.type = spr_speed_up
+		pickup.sprite_index = spr_speed_up
+		
+		case loot.freeze:
+		var pickup = instance_create_depth(self.x+self.sprite_width,self.y,self.depth,obj_pickup)
+		pickup.type = spr_freeze
+		pickup.sprite_index = spr_freeze
 	}
 	self.spawn_timer = 5
 }
