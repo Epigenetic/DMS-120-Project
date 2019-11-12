@@ -3,6 +3,12 @@ if instance_exists(obj_slash){
 	self.vspeed = 0
 }
 
+if(self.toy_flag){
+	self.hspeed = 0
+	self.vspeed = 0
+	self.toy_flag = false
+}
+
 if(self.vspeed == 0 && self.hspeed == 0){
 	switch(self.sprite_index){
 		case spr_teddy_up_walk:
