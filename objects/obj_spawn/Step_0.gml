@@ -1,4 +1,8 @@
-if self.active && --self.spawn_time == 0{
+//show_debug_message(self.spawn_time)
+if self.active && --self.spawn_time <= 0{
+	if place_meeting(self.x+64,self.y,obj_enemy) || place_meeting(self.x,self.y-64,obj_enemy) || place_meeting(self.x-64,self.y,obj_enemy){
+		return
+	}
 	//show_debug_message(self.schedule)
 	if self.index < array_length_2d(self.schedule,0){
 		self.spawn_time = self.schedule[1,self.index]
