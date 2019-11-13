@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "0a127ae9-09d0-443d-886c-527ca1a6a223",
+            "Value": {
+                "id": "89e83755-e10a-4369-b348-c21fd96b2f8f",
+                "resourcePath": "objects\\obj_slash_heavy\\obj_slash_heavy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "11526f5f-9058-459e-8c61-bbb0d70464f4",
             "Value": {
                 "id": "b9bad94a-6a1b-4f8d-aa67-5e7c753bc0c4",

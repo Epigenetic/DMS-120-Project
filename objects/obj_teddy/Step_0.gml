@@ -29,10 +29,24 @@ if(self.vspeed == 0 && self.hspeed == 0){
 	}	
 }
 
-if (keyboard_check(vk_shift) || keyboard_check(vk_rshift)){
-	var inst = instance_find(obj_toychest,0)
-	if distance_to_object(inst) < inst.sprite_width && inst.spawn_timer > 0{
-		//show_debug_message("I am here " + string(inst.spawn_timer))
-		inst.spawn_timer--
+if(self.powerup_timer >= 0){
+	self.powerup_timer --
+	if self.powerup_timer == -1{
+		switch(self.powerup){
+			case spr_dmg_up:
+			self.powerup = noone
+			break
+			
+			case spr_speed_up:
+			self.walk_speed = 5
+			self.powerup = noone
+			break
+			
+			case spr_freeze:
+			instance_activate_object(obj_enemy)
+			self.powerup = noone
+			global.freeze_flag = false
+			break
+		}
 	}
 }

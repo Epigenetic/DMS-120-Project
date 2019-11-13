@@ -1,6 +1,6 @@
 var xoffset,yoffset
 
-if instance_exists(obj_slash) //Don't attack if already attacking
+if instance_exists(obj_slash) || instance_exists(obj_slash_heavy)//Don't attack if already attacking
 	return;
 
 switch self.sprite_index{ //Create the slash in the right place
@@ -34,4 +34,7 @@ switch self.sprite_index{ //Create the slash in the right place
 	break
 }
 
-instance_create_depth(self.x + xoffset,self.y + yoffset,self.depth,obj_slash)
+if(self.powerup == spr_dmg_up)
+	instance_create_depth(self.x + xoffset,self.y + yoffset,self.depth,obj_slash_heavy)
+else
+	instance_create_depth(self.x + xoffset,self.y + yoffset,self.depth,obj_slash)
