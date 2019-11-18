@@ -11,7 +11,8 @@
         "8cc78e6f-aab7-45bf-8636-2bfad12d45a7",
         "823ddeb5-c18c-4ae6-8778-eb7118345150",
         "3218b697-6f92-4740-9a5f-b54a2f308a05",
-        "d458b877-8ab2-4621-bca0-8c6cd4069743"
+        "d458b877-8ab2-4621-bca0-8c6cd4069743",
+        "b1462638-aa12-43d7-917c-6f8f918946f5"
     ],
     "filterType": "GMSprite",
     "folderName": "teddy",
