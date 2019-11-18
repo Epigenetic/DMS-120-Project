@@ -14,11 +14,18 @@ while(i < health){
 		draw_sprite(spr_health_half,0,16 + j++*64,32)
 	}
 }
+while(i < 10){
+	if i % 2 == 1{
+		i++
+		continue
+	}
+	draw_sprite(spr_health_empty,0,16 + j++*64,32)
+	i+=2
+}
 
 if health < 0{
 	draw_text(room_width/2,room_height/2,"You Lose")
 	room_goto(rm_title)
 }else if instance_number(obj_enemy) == 0 && instance_number(obj_spawn) == 0{
-	draw_text(room_width/2,room_height/2,"You Win")
-	self.countdown = true
+	instance_create_depth(0,0,self.depth,obj_transition)
 }
