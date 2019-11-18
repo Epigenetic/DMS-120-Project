@@ -2,9 +2,6 @@
 // Spawn tables are enemy to spawn in first array, how long to wait before next spawn in the next second
 // i.e. schedule[0,x] is what the xth enemy is enemy and schedule[1,x] is how long to wait before spawning the x+1th enemy
 
-self.countdown = false
-self.timer = 100
-
 switch(room){
 
 case rm_level1:
