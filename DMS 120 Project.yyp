@@ -143,14 +143,6 @@
             }
         },
         {
-            "Key": "2f933836-a71d-4b86-accb-5027c734fede",
-            "Value": {
-                "id": "146155b0-f19f-4b35-ad21-3316de669a69",
-                "resourcePath": "objects\\obj_dark\\obj_dark.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "3218b697-6f92-4740-9a5f-b54a2f308a05",
             "Value": {
                 "id": "12c82fa7-d93a-4dc7-acbc-40c59ce9d70d",
