@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "07596546-c23a-496a-bc31-cc8e6c1e403d",
+            "Value": {
+                "id": "ff787257-cb7a-45de-9d20-7c835ab9d77c",
+                "resourcePath": "sprites\\spr_teddy_lying_down\\spr_teddy_lying_down.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0a127ae9-09d0-443d-886c-527ca1a6a223",
             "Value": {
                 "id": "89e83755-e10a-4369-b348-c21fd96b2f8f",
@@ -435,6 +443,14 @@
             "Value": {
                 "id": "15ce1ba6-853f-4393-87c9-db6eeb787045",
                 "resourcePath": "sprites\\spr_health_half\\spr_health_half.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a3231c2a-4b72-4373-a5a8-2c6c717f12cb",
+            "Value": {
+                "id": "d4642a97-be46-407d-9567-23d15075252f",
+                "resourcePath": "sprites\\spr_teddy_bank\\spr_teddy_bank.yy",
                 "resourceType": "GMSprite"
             }
         },
