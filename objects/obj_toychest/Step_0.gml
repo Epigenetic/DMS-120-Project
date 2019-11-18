@@ -7,8 +7,12 @@ if(instance_number(obj_spawn) != 0){
 			self.nasty_time--
 		}else if (self.nasty_time == 0){
 			//show_debug_message("Changed sprite")
-			self.sprite_index = spr_toychest_shaking
-			self.nasty_time = 200
+			if(instance_number(obj_toy) < 1){
+				self.sprite_index = spr_toychest_shaking
+				self.nasty_time = 200
+			}else{
+				self.nasty_time = 200
+			}
 		}
 	}else{
 		if(--self.nasty_time == 0){
