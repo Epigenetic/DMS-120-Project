@@ -1,5 +1,5 @@
 self.current_frame=0
-self.maxframes = 100
+self.maxframes = 50
 self.oldroom = surface_create(room_width,room_height)
 surface_copy(self.oldroom,0,0,application_surface)
 if(room != rm_fin)
