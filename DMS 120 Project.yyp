@@ -527,6 +527,14 @@
             }
         },
         {
+            "Key": "a16a835d-164e-4b0e-a21d-19f1fb673ceb",
+            "Value": {
+                "id": "a7a8532b-4265-4773-b1fe-696028fe7c23",
+                "resourcePath": "sprites\\spr_lossscreen\\spr_lossscreen.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a3231c2a-4b72-4373-a5a8-2c6c717f12cb",
             "Value": {
                 "id": "d4642a97-be46-407d-9567-23d15075252f",
