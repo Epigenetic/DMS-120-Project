@@ -16,8 +16,7 @@ if(instance_number(obj_spawn) != 0){
 		}
 	}else{
 		if(--self.nasty_time == 0){
-			if(collision_rectangle(self.x-64,self.y+self.sprite_height,self.x+64,self.y+64+self.sprite_height*2,obj_enemy,false,true)
-				|| collision_rectangle(self.x-64,self.y+self.sprite_height,self.x+64,self.y+64+self.sprite_height*2,obj_teddy,false,true)){
+			if(collision_point(self.x,self.y+self.sprite_height*1.5,obj_teddy,false,true) || collision_point(self.x,self.y+self.sprite_height*1.5,obj_enemy,false,true)){
 				self.nasty_time++
 			}else{
 				self.sprite_index = spr_toychest
