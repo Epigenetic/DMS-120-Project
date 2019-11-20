@@ -2,7 +2,9 @@ if other.type == noone
 	return;
 switch(other.type){
 	case spr_fluff:
+	if(health < 10){
 		health++
+	}
 	break
 	
 	case spr_dmg_up:
