@@ -847,6 +847,14 @@
             }
         },
         {
+            "Key": "f9fd427a-1b00-41a4-b1c1-f99f2f449add",
+            "Value": {
+                "id": "1bb90468-bc3a-4cdc-8fa4-65e58e0bf048",
+                "resourcePath": "sprites\\spr_toychest_open\\spr_toychest_open.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "fd4c538c-5a3b-4110-a4c6-bf186f3bbc4f",
             "Value": {
                 "id": "4eef74f1-94d2-4d3e-bf3e-6c9559338429",
