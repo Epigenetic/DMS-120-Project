@@ -1,6 +1,8 @@
-//show_debug_message("My spawn timer: " + string(self.spawn_timer))
-//show_debug_message("Nasty timer " + string(self.nasty_time))
-//show_debug_message("Sprite: " + string(self.image_index))
+if(self.sprite_index == spr_toychest_open){
+	if self.image_index > self.image_number -1
+		self.sprite_index = spr_toychest
+}
+
 if(instance_number(obj_spawn) != 0){
 	if(self.sprite_index != spr_toychest_shaking){
 		if(self.nasty_time > 0){
@@ -19,7 +21,7 @@ if(instance_number(obj_spawn) != 0){
 			if(collision_point(self.x,self.y+self.sprite_height*1.5,obj_teddy,false,true) || collision_point(self.x,self.y+self.sprite_height*1.5,obj_enemy,false,true)){
 				self.nasty_time++
 			}else{
-				self.sprite_index = spr_toychest
+				self.sprite_index = spr_toychest_open
 				instance_create_depth(self.x,self.y + self.sprite_height*1.5,self.depth,obj_toy)
 				self.nasty_time = floor(random_range(0,20)*20)
 			}
