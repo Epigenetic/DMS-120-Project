@@ -6,3 +6,8 @@ if(!global.freeze_flag){
 }
 
 self.image_angle = point_direction(self.x,self.y,target.x,target.y) - 90
+
+if(self.sound_time-- == 0){
+	self.sound_time = 300
+	audio_play_sound(self.sound,10,false)
+}
