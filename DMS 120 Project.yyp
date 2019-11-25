@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "3879f0b0-40b5-4a4e-b574-e3b905944844",
+            "Value": {
+                "id": "10043556-f3dc-4761-8d97-2e1617d8135c",
+                "resourcePath": "sprites\\spr_boss1\\spr_boss1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3b273536-819f-4048-9446-db88da1ec15d",
             "Value": {
                 "id": "13ecb1b9-0f4f-4bac-887a-03b028616124",
@@ -244,6 +252,14 @@
                 "id": "9029edb3-2d48-487d-8dcd-f3d1d43f628a",
                 "resourcePath": "views\\4ba58f51-b675-4a4d-9e44-5ca84db6d4f3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4c7fd318-3853-4052-afaa-9d1fa8ef186b",
+            "Value": {
+                "id": "140bdb3a-90b5-4c21-9ef2-f5ba91dbd5ec",
+                "resourcePath": "sprites\\sprite46\\sprite46.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -356,6 +372,14 @@
                 "id": "d16c5011-eeda-48e5-aaef-ba74aad986cc",
                 "resourcePath": "views\\768e55bb-3c3d-477c-9e88-0d974f2ce380.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "76b09bfc-0e26-4de7-94b8-2d1d6a593daf",
+            "Value": {
+                "id": "bb707329-cd2a-4922-b408-0157290000fc",
+                "resourcePath": "sprites\\sprite461\\sprite461.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -636,6 +660,14 @@
                 "id": "fdecc2be-e8d1-4b8a-a9b4-97a897ccbd73",
                 "resourcePath": "views\\bfe4fec7-5f4e-4e8b-9905-ec8e69660532.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c006494e-065d-4785-8817-bca979ec509c",
+            "Value": {
+                "id": "dce4d151-7be3-4906-8268-986355017979",
+                "resourcePath": "sprites\\spr_how_to_working1\\spr_how_to_working1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
