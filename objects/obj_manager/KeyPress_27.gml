@@ -1,1 +1,1 @@
-room_goto(rm_title)
+game_end()
