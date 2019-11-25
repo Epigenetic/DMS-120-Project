@@ -6,3 +6,5 @@ self.speedval = 1
 self.damage = 2
 self.image_xscale = 2
 self.image_yscale = 2
+self.sound = sn_elite
+self.sound_time = 300

@@ -1,3 +1,5 @@
+audio_play_sound(sn_swordswish,10,false)
+
 var teddy = instance_find(obj_teddy,0)
 
 //Face the slash the right way
