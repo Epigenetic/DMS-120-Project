@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "3e409e2b-9bf7-4eb1-8f44-cea2dbaea06c",
+            "Value": {
+                "id": "4b04dfb6-f806-4e38-af34-e603d65dcfba",
+                "resourcePath": "objects\\obj_escape\\obj_escape.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3e944ecd-8cce-4cc6-ac2f-8e0fb4a53c9e",
             "Value": {
                 "id": "dfea2b72-101b-4954-93eb-f8d61805b4b8",
@@ -749,8 +757,8 @@
                 "resourcePath": "sprites\\spr_room31\\spr_room31.yy",
                 "resourceType": "GMSprite"
             }
-      },
-      {
+        },
+        {
             "Key": "c57f0072-4a21-4452-929f-2d2e79ed7e9f",
             "Value": {
                 "id": "88d658ae-f990-44d8-b8ba-e694158e4fc0",
