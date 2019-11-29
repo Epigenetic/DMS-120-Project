@@ -178,7 +178,7 @@
             "Key": "3e0e9568-a965-4052-a641-643eeabe76aa",
             "Value": {
                 "id": "568935fd-712a-4b05-9ef6-466634f4e61c",
-                "resourcePath": "sprites\\spr_how_to_working\\spr_how_to_working.yy",
+                "resourcePath": "sprites\\spr_howto\\spr_howto.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -220,14 +220,6 @@
                 "id": "2650531f-606a-43b9-8e9d-843691073a9c",
                 "resourcePath": "views\\45a98701-9a7c-42fa-96cd-698b28c180f7.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "465aa5cc-0ee6-4725-862a-831c12e56e0b",
-            "Value": {
-                "id": "7dc52993-3f49-407e-9292-9ae446142cfc",
-                "resourcePath": "sprites\\spr_howto\\spr_howto.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -772,6 +764,14 @@
                 "id": "cc8652c2-19dd-47af-878c-8943339f59d4",
                 "resourcePath": "rooms\\rm_fin\\rm_fin.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "d6e47ef8-439b-4814-afef-82f109b81cc8",
+            "Value": {
+                "id": "ef147a8e-e4d9-4c7b-8b88-dc8276507b4e",
+                "resourcePath": "sprites\\sprite4611\\sprite4611.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
