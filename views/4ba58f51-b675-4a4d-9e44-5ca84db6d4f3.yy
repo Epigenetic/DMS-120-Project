@@ -17,7 +17,11 @@
         "a16a835d-164e-4b0e-a21d-19f1fb673ceb",
         "ca78a0cc-8ec8-42c0-ad25-6720a7d16fe8",
         "3ff7b407-9263-4ab7-be93-582e2ec59ccc",
-        "f79663c2-75c2-46b5-9619-d322812bfe1d"
+        "f79663c2-75c2-46b5-9619-d322812bfe1d",
+        "202e3d16-b7b5-4aec-a947-2f7cbe916f7c",
+        "d1da0128-f0e8-4a40-a21f-f0a0137da148",
+        "3a02b562-3a49-4ba2-b73c-a7566313c4c3",
+        "5ce16eb8-bdcb-4b64-9938-28db6fd5db28"
     ],
     "filterType": "GMSprite",
     "folderName": "room",
