@@ -407,6 +407,14 @@
             }
         },
         {
+            "Key": "7e49fa2c-20cd-4f52-9a2d-9e2946e36cc1",
+            "Value": {
+                "id": "56b4b2cf-fb5e-40f5-a67a-9dec6ce88bdd",
+                "resourcePath": "sprites\\spr_teddy_right_walk1\\spr_teddy_right_walk1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "80d8e53e-69a8-4bee-b838-b9d688ad399d",
             "Value": {
                 "id": "2da15aee-c43b-49a9-8899-b670791bd6e2",
@@ -559,6 +567,14 @@
             }
         },
         {
+            "Key": "a38e1a0f-9968-44f7-a63b-286ed8263f06",
+            "Value": {
+                "id": "1ca48daf-7c99-4c98-a26d-e56922d3e138",
+                "resourcePath": "sprites\\spr_start_animation1\\spr_start_animation1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a5144f0c-1665-405b-8dd9-dc0026e37c43",
             "Value": {
                 "id": "bb6e9040-721d-4510-ab8e-5ccfd13323ff",
@@ -687,6 +703,14 @@
             }
         },
         {
+            "Key": "c840f03f-e0a4-44ec-bacb-019bd2869278",
+            "Value": {
+                "id": "8e20510d-e05c-425a-ad29-e42fe9257c06",
+                "resourcePath": "sprites\\spr_teddy_left_walk1\\spr_teddy_left_walk1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ca78a0cc-8ec8-42c0-ad25-6720a7d16fe8",
             "Value": {
                 "id": "bb8dc201-f302-41fc-8fdd-4c49e7086808",
@@ -723,6 +747,14 @@
             "Value": {
                 "id": "6273105b-3abc-44b8-9967-7ca2b3d36678",
                 "resourcePath": "sprites\\spr_toy\\spr_toy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d0e81343-8ba6-41b1-9a0d-3f5a6a44c83a",
+            "Value": {
+                "id": "738f9447-b067-4fec-aab2-8cccf6677c50",
+                "resourcePath": "sprites\\spr_start_animation\\spr_start_animation.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -835,6 +867,14 @@
             "Value": {
                 "id": "917cc18a-50b8-4b0c-884d-6f55d0a1b0b8",
                 "resourcePath": "sprites\\spr_freeze_halo\\spr_freeze_halo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "edaca1e1-7309-4e7a-b801-a656b1606251",
+            "Value": {
+                "id": "3bd68cd9-050e-4174-bf39-f2251f2810ab",
+                "resourcePath": "sprites\\spr_teddy_getting_up1\\spr_teddy_getting_up1.yy",
                 "resourceType": "GMSprite"
             }
         },
