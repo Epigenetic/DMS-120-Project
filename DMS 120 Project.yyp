@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "32916762-21a5-4af9-ad35-ebc2fb25482e",
+            "Value": {
+                "id": "c6bd08d9-3524-4b80-9f60-c549ad71414b",
+                "resourcePath": "sprites\\spr_bed1\\spr_bed1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3b273536-819f-4048-9446-db88da1ec15d",
             "Value": {
                 "id": "13ecb1b9-0f4f-4bac-887a-03b028616124",
@@ -239,6 +247,14 @@
             }
         },
         {
+            "Key": "4c40b6cc-bb5a-4642-aee1-0ca5ac98b51c",
+            "Value": {
+                "id": "9df0042d-5528-4292-977c-96fe63bb8053",
+                "resourcePath": "sprites\\spr_knocking_closet\\spr_knocking_closet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4c7fd318-3853-4052-afaa-9d1fa8ef186b",
             "Value": {
                 "id": "140bdb3a-90b5-4c21-9ef2-f5ba91dbd5ec",
@@ -276,6 +292,14 @@
                 "id": "6b296de1-971d-42a2-8c73-435c5415ba71",
                 "resourcePath": "objects\\obj_transition\\obj_transition.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6079284b-66ce-46a4-9dff-3b9f0217c185",
+            "Value": {
+                "id": "0fa62167-2f8b-4109-853c-1d25d100f8a2",
+                "resourcePath": "sprites\\spr_knocking_window\\spr_knocking_window.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -343,6 +367,14 @@
             }
         },
         {
+            "Key": "7321dd6b-ffbf-4f76-bc76-e8c9b4a0a318",
+            "Value": {
+                "id": "ac9606af-a16f-4822-be7e-251eea34d4a9",
+                "resourcePath": "sprites\\spr_level_start_animation\\spr_level_start_animation.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "76080928-a817-4625-8f68-cd73fea8364f",
             "Value": {
                 "id": "59c454bb-c5f7-40c8-921f-f5b5ab05cb1e",
@@ -404,6 +436,14 @@
                 "id": "eb228c73-6eab-4661-b862-ef1362a82c2a",
                 "resourcePath": "objects\\obj_manager\\obj_manager.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7c2bd3d3-f147-4f38-afb3-707892a19efb",
+            "Value": {
+                "id": "6341cf4b-9d28-428c-a334-e84d657f2e05",
+                "resourcePath": "sprites\\spr_knocking_chest\\spr_knocking_chest.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -495,6 +535,14 @@
             }
         },
         {
+            "Key": "90c4eb62-4fc1-4d8c-a9df-a4eee24153ec",
+            "Value": {
+                "id": "cea1762c-076e-4a87-a224-288f7af3353b",
+                "resourcePath": "sprites\\spr_while_knocking\\spr_while_knocking.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "90c72562-cc1d-44ea-9680-3cbb7f5b7fc6",
             "Value": {
                 "id": "15d19cb9-c2dd-44b1-9a92-c8039490781e",
@@ -563,14 +611,6 @@
             "Value": {
                 "id": "a7a8532b-4265-4773-b1fe-696028fe7c23",
                 "resourcePath": "sprites\\spr_lossscreen\\spr_lossscreen.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "a38e1a0f-9968-44f7-a63b-286ed8263f06",
-            "Value": {
-                "id": "1ca48daf-7c99-4c98-a26d-e56922d3e138",
-                "resourcePath": "sprites\\spr_start_animation1\\spr_start_animation1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -747,14 +787,6 @@
             "Value": {
                 "id": "6273105b-3abc-44b8-9967-7ca2b3d36678",
                 "resourcePath": "sprites\\spr_toy\\spr_toy.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "d0e81343-8ba6-41b1-9a0d-3f5a6a44c83a",
-            "Value": {
-                "id": "738f9447-b067-4fec-aab2-8cccf6677c50",
-                "resourcePath": "sprites\\spr_start_animation\\spr_start_animation.yy",
                 "resourceType": "GMSprite"
             }
         },
