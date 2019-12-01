@@ -143,14 +143,6 @@
             }
         },
         {
-            "Key": "202e3d16-b7b5-4aec-a947-2f7cbe916f7c",
-            "Value": {
-                "id": "ebf68ebb-cf5c-4097-bc49-754887a55874",
-                "resourcePath": "sprites\\spr_gma\\spr_gma.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "2e80940c-60c7-4143-ae6e-ad474d80c63f",
             "Value": {
                 "id": "72b3727f-d5d9-4082-8735-3e41e10ca91b",
@@ -171,14 +163,6 @@
             "Value": {
                 "id": "12c82fa7-d93a-4dc7-acbc-40c59ce9d70d",
                 "resourcePath": "sprites\\spr_teddy_down\\spr_teddy_down.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "32916762-21a5-4af9-ad35-ebc2fb25482e",
-            "Value": {
-                "id": "c6bd08d9-3524-4b80-9f60-c549ad71414b",
-                "resourcePath": "sprites\\spr_bed1\\spr_bed1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -283,14 +267,6 @@
             "Value": {
                 "id": "9df0042d-5528-4292-977c-96fe63bb8053",
                 "resourcePath": "sprites\\spr_knocking_closet\\spr_knocking_closet.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "4c7fd318-3853-4052-afaa-9d1fa8ef186b",
-            "Value": {
-                "id": "140bdb3a-90b5-4c21-9ef2-f5ba91dbd5ec",
-                "resourcePath": "sprites\\sprite46\\sprite46.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -434,7 +410,7 @@
             "Key": "76b09bfc-0e26-4de7-94b8-2d1d6a593daf",
             "Value": {
                 "id": "bb707329-cd2a-4922-b408-0157290000fc",
-                "resourcePath": "sprites\\sprite461\\sprite461.yy",
+                "resourcePath": "sprites\\spr_howto_text\\spr_howto_text.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -483,14 +459,6 @@
             "Value": {
                 "id": "6341cf4b-9d28-428c-a334-e84d657f2e05",
                 "resourcePath": "sprites\\spr_knocking_chest\\spr_knocking_chest.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "7e49fa2c-20cd-4f52-9a2d-9e2946e36cc1",
-            "Value": {
-                "id": "56b4b2cf-fb5e-40f5-a67a-9dec6ce88bdd",
-                "resourcePath": "sprites\\spr_teddy_right_walk1\\spr_teddy_right_walk1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -783,14 +751,6 @@
             }
         },
         {
-            "Key": "c840f03f-e0a4-44ec-bacb-019bd2869278",
-            "Value": {
-                "id": "8e20510d-e05c-425a-ad29-e42fe9257c06",
-                "resourcePath": "sprites\\spr_teddy_left_walk1\\spr_teddy_left_walk1.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "ca78a0cc-8ec8-42c0-ad25-6720a7d16fe8",
             "Value": {
                 "id": "bb8dc201-f302-41fc-8fdd-4c49e7086808",
@@ -874,7 +834,7 @@
             "Key": "d6e47ef8-439b-4814-afef-82f109b81cc8",
             "Value": {
                 "id": "ef147a8e-e4d9-4c7b-8b88-dc8276507b4e",
-                "resourcePath": "sprites\\sprite4611\\sprite4611.yy",
+                "resourcePath": "sprites\\spr_howto_text_resized\\spr_howto_text_resized.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -951,18 +911,10 @@
             }
         },
         {
-            "Key": "edaca1e1-7309-4e7a-b801-a656b1606251",
-            "Value": {
-                "id": "3bd68cd9-050e-4174-bf39-f2251f2810ab",
-                "resourcePath": "sprites\\spr_teddy_getting_up1\\spr_teddy_getting_up1.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "ee77f8d6-9a79-43ab-917a-5d14afc1e15f",
             "Value": {
                 "id": "4ed12d32-9204-4095-b2c8-248701250128",
-                "resourcePath": "sprites\\sprite50\\sprite50.yy",
+                "resourcePath": "sprites\\spr_title_text\\spr_title_text.yy",
                 "resourceType": "GMSprite"
             }
         },
