@@ -12,7 +12,8 @@ if(instance_number(obj_spawn) != 0){
 			//show_debug_message("Changed sprite")
 			if(instance_number(obj_toy) < 1){
 				self.sprite_index = spr_toychest_shaking
-				audio_play_sound(sn_chestcreak,10,true)
+				if(!audio_is_playing(sn_chestcreak))
+					audio_play_sound(sn_chestcreak,10,true)
 				self.nasty_time = 200
 			}else{
 				self.nasty_time = 200
