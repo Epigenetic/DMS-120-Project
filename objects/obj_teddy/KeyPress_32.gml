@@ -3,28 +3,27 @@ var xoffset,yoffset
 if instance_exists(obj_slash) || instance_exists(obj_slash_heavy)//Don't attack if already attacking
 	return;
 
-switch self.sprite_index{ //Create the slash in the right place
-	case spr_teddy_up:
-	case spr_teddy_up_walk:
+switch self.sprite_array{ //Create the slash in the right place
+	case up_arr:
+	case up_walk_arr:
 	xoffset = 0
 	yoffset = -64
-	self.sprite_index = spr_teddy_up
 	break
 	
-	case spr_teddy_down:
-	case spr_teddy_down_walk:
+	case down_arr:
+	case down_walk_arr:
 	xoffset = 0
 	yoffset = 64
 	break
 	
-	case spr_teddy_left:
-	case spr_teddy_left_walk:
+	case left_arr:
+	case left_walk_arr:
 	xoffset = -64
 	yoffset = 0
 	break
 	
-	case spr_teddy_right:
-	case spr_teddy_right_walk:
+	case right_arr:
+	case right_walk_arr:
 	xoffset = 64
 	yoffset = 0
 	break
