@@ -29,6 +29,7 @@ if(self.vspeed == 0 && self.hspeed == 0){
 	}	
 }
 
+//Manage the powerup 
 if(self.powerup_timer >= 0){
 	self.powerup_timer --
 	if self.powerup_timer == -1{
@@ -51,6 +52,7 @@ if(self.powerup_timer >= 0){
 	}
 }
 
+//pick outthe correct sprite
 switch(self.powerup){
 	case noone:
 	self.sprite_index = self.sprite_array[0]
@@ -67,4 +69,15 @@ switch(self.powerup){
 	case spr_freeze:
 	self.sprite_index = self.sprite_array[3]
 	break
+}
+
+if (self.powerup_timer >= 0 && self.powerup_timer < 60){
+	if(self.flicker_timer == -1){
+		self.flicker_timer = 20
+		self.sprite_index = self.sprite_array[0]
+	}else{
+		if(self.flicker_timer-- > 10){
+			self.sprite_index = self.sprite_array[0]
+		}
+	}
 }
