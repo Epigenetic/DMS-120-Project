@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "1fc197d3-5b86-4a5b-86f6-92b655004830",
+            "Value": {
+                "id": "bcd60833-8d49-475d-955c-d36b0499fcec",
+                "resourcePath": "sprites\\spr_git_gud\\spr_git_gud.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "29320068-ab2c-4b03-aaea-d9390cf275f0",
             "Value": {
                 "id": "98685132-73f0-4256-99c0-b94d5bde7c7a",
