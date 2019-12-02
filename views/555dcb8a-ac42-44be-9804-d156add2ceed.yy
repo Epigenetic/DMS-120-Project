@@ -11,7 +11,8 @@
         "7f2761d8-5dd3-4bc3-812b-13d3cbdd4dc6",
         "a29a47fb-ebbc-40b8-a40b-48336436728b",
         "1eb18884-42ce-4d67-b711-d55a043cb9c9",
-        "4fa8c623-bfe5-4045-ba10-4ccbf4c41bf7"
+        "4fa8c623-bfe5-4045-ba10-4ccbf4c41bf7",
+        "3e483a40-ed7e-449d-932b-18b318daf95d"
     ],
     "filterType": "GMSprite",
     "folderName": "dmg_halo",

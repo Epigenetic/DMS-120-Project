@@ -11,7 +11,8 @@
         "453be2ac-f977-42ed-9832-3ecd813d2d4f",
         "472c321a-65e8-496d-b068-035921624c90",
         "8e85d275-9879-4345-9ff0-0d2183f5e493",
-        "c91b3a0c-90b3-406c-8add-213e27c52aa8"
+        "c91b3a0c-90b3-406c-8add-213e27c52aa8",
+        "bc6c9eb1-d0b3-4c36-8422-7fa65dd5822e"
     ],
     "filterType": "GMSprite",
     "folderName": "speed_halo",
