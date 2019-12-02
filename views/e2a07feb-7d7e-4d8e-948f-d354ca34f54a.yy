@@ -15,7 +15,8 @@
         "5488b454-db48-4e2d-8b9b-d26287a3a3df",
         "7c2bd3d3-f147-4f38-afb3-707892a19efb",
         "5ce16eb8-bdcb-4b64-9938-28db6fd5db28",
-        "03a21eaa-00ee-4ca2-b816-49cfaec1b259"
+        "03a21eaa-00ee-4ca2-b816-49cfaec1b259",
+        "1fc197d3-5b86-4a5b-86f6-92b655004830"
     ],
     "filterType": "GMSprite",
     "folderName": "transitions",
