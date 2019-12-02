@@ -855,6 +855,14 @@
             }
         },
         {
+            "Key": "9d44fe55-d7c3-455e-9d85-22a6572e2bb0",
+            "Value": {
+                "id": "0f24ba8d-d6a3-4349-b6e1-28a64f78e047",
+                "resourcePath": "sounds\\sn_scream\\sn_scream.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "9d535b76-44ef-443e-a8fd-e5d4db3cb72b",
             "Value": {
                 "id": "20994935-3a9f-4281-a65d-55f3aef29be0",
