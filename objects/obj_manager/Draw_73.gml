@@ -24,7 +24,8 @@ while(i < 10){
 }
 
 if health < 0{
-	draw_text(room_width/2,room_height/2,"You Lose")
+	//draw_text(room_width/2,room_height/2,"You Lose")
+	audio_play_sound(sn_death,10,false)
 	room_goto(rm_title)
 }else if instance_number(obj_enemy) == 0 && instance_number(obj_spawn) == 0{
 	instance_create_depth(0,0,self.depth,obj_transition)
