@@ -6,5 +6,3 @@ self.speedval = 2
 self.damage = 1
 self.image_xscale = 2
 self.image_yscale = 2
-self.sound = sn_enemy
-self.sound_time = 300
