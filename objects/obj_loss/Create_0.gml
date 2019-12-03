@@ -1,0 +1,1 @@
+self.draw_time = 50

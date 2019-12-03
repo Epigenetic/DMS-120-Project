@@ -25,26 +25,11 @@ while(i < 10){
 
 if health <= 0{
 	//draw_text(room_width/2,room_height/2,"You Lose")
-	audio_play_sound(sn_death,10,false)
-	global.freeze_flag = true
-	if(self.teddy_x == noone){
-		var teddy = instance_find(obj_teddy,0)
-		self.teddy_x = teddy.x
-		self.teddy_y = teddy.y
-		instance_destroy(teddy)
-	}
-	
-	if(self.death_time < 7){
-		if(self.padding < 3){
-			self.padding++
-			draw_sprite_ext(spr_teddy_falling_down,self.death_time,self.teddy_x,self.teddy_y,2,2,0,c_white,1)
-		}else{
-			self.padding = 0
-			self.death_time++
-		}
-	}else{
-		draw_sprite_ext(spr_teddy_lying_down,0,self.teddy_x,self.teddy_y,2,2,0,c_white,1)
-	}
+	instance_destroy(obj_enemy)
+	instance_create_depth(self.x,self.y,self.depth,obj_teddy_dead)
+	var bed = instance_find(obj_bed,0)
+	bed.sprite_index = spr_bed_awake
+	instance_destroy(self)
 	//room_goto(rm_title)
 }else if instance_number(obj_enemy) == 0 && instance_number(obj_spawn) == 0{
 	instance_create_depth(0,0,self.depth,obj_transition)
