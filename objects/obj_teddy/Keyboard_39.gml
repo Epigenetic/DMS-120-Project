@@ -1,2 +1,2 @@
 self.hspeed = self.walk_speed
-self.sprite_index = spr_teddy_right_walk
+self.sprite_array = right_walk_arr

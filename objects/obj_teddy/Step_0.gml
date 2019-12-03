@@ -10,25 +10,26 @@ if(self.toy_flag){
 }
 
 if(self.vspeed == 0 && self.hspeed == 0){
-	switch(self.sprite_index){
-		case spr_teddy_up_walk:
-		self.sprite_index = spr_teddy_up
+	switch(self.sprite_array){
+		case up_walk_arr:
+		self.sprite_array = up_arr
 		break
 		
-		case spr_teddy_down_walk:
-		self.sprite_index = spr_teddy_down
+		case down_walk_arr:
+		self.sprite_array = down_arr
 		break
 		
-		case spr_teddy_left_walk:
-		self.sprite_index = spr_teddy_left
+		case left_walk_arr:
+		self.sprite_array = left_arr
 		break
 		
-		case spr_teddy_right_walk:
-		self.sprite_index = spr_teddy_right
+		case right_walk_arr:
+		self.sprite_array = right_arr
 		break
 	}	
 }
 
+//Manage the powerup 
 if(self.powerup_timer >= 0){
 	self.powerup_timer --
 	if self.powerup_timer == -1{
@@ -47,6 +48,36 @@ if(self.powerup_timer >= 0){
 			self.powerup = noone
 			global.freeze_flag = false
 			break
+		}
+	}
+}
+
+//pick outthe correct sprite
+switch(self.powerup){
+	case noone:
+	self.sprite_index = self.sprite_array[0]
+	break
+	
+	case spr_dmg_up:
+	self.sprite_index = self.sprite_array[1]
+	break
+	
+	case spr_speed_up:
+	self.sprite_index = self.sprite_array[2]
+	break
+	
+	case spr_freeze:
+	self.sprite_index = self.sprite_array[3]
+	break
+}
+
+if (self.powerup_timer >= 0 && self.powerup_timer < 60){
+	if(self.flicker_timer == -1){
+		self.flicker_timer = 20
+		self.sprite_index = self.sprite_array[0]
+	}else{
+		if(self.flicker_timer-- > 10){
+			self.sprite_index = self.sprite_array[0]
 		}
 	}
 }
