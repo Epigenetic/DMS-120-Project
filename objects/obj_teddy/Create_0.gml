@@ -1,6 +1,7 @@
 self.walk_speed = 5 //Change this to change walk speed
 self.image_xscale = 2
 self.image_yscale = 2
+self.mask_index = spr_teddy_down
 self.toy_flag = false
 self.powerup_timer = -1 //Time left on powerup, -1 is no powerup
 self.powerup = noone //Current powerup, tracked through sprite indices

@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "1300ea7f-e43a-4fc3-b050-f71e64663240",
+            "Value": {
+                "id": "c3f55b62-b7b3-4959-b52c-e150af80c728",
+                "resourcePath": "sounds\\sn_level_start\\sn_level_start.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "1500a45f-bad7-4b39-a098-e57458ae3b48",
             "Value": {
                 "id": "ffab4d89-127e-41b4-a10a-2ec7aeb26f8f",
@@ -567,6 +575,14 @@
             }
         },
         {
+            "Key": "6ec1034b-ff8b-4110-81f9-023f835d752c",
+            "Value": {
+                "id": "be7a116e-80e0-4c0d-ac24-ee51d93b4982",
+                "resourcePath": "sounds\\sn_sword_unsheath\\sn_sword_unsheath.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "70950fa6-fdac-4a30-b049-961586efd9b3",
             "Value": {
                 "id": "eeca292f-2f1c-4253-a6a2-5faeffc390da",
@@ -858,7 +874,7 @@
             "Key": "9d44fe55-d7c3-455e-9d85-22a6572e2bb0",
             "Value": {
                 "id": "0f24ba8d-d6a3-4349-b6e1-28a64f78e047",
-                "resourcePath": "sounds\\sn_scream\\sn_scream.yy",
+                "resourcePath": "sounds\\sn_grandma_scream\\sn_grandma_scream.yy",
                 "resourceType": "GMSound"
             }
         },
