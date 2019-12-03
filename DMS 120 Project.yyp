@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "0e6e9fbf-4f0a-4c03-8746-f2a7f0db2604",
+            "Value": {
+                "id": "107152a1-1612-495f-8446-db29cbf32a01",
+                "resourcePath": "sounds\\sn_throw\\sn_throw.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "0ef8587b-fd51-4d9c-a480-59b9bc9c2105",
             "Value": {
                 "id": "a017237b-4c66-4eac-9c6f-24937f477dbf",
@@ -375,6 +383,14 @@
             }
         },
         {
+            "Key": "4903371e-ec41-476d-8a02-25807aa50911",
+            "Value": {
+                "id": "bc37b0c9-5f4e-4d8f-9ff8-cac37a94e2ff",
+                "resourcePath": "sounds\\sn_door_open\\sn_door_open.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "4923ee56-013c-49c5-9996-7e13b91438fd",
             "Value": {
                 "id": "e1be84ca-0711-47fc-ae16-c168be82c108",
@@ -439,6 +455,14 @@
             }
         },
         {
+            "Key": "52dde511-3728-459a-9f18-343301ac3e67",
+            "Value": {
+                "id": "35fe0a37-a2d1-4a4f-8c76-b60a8a91ec01",
+                "resourcePath": "sounds\\sn_kid_screams\\sn_kid_screams.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "53cc1202-eaf6-4bc0-b3d6-d3a1577ec666",
             "Value": {
                 "id": "78e4a473-121e-4d2b-b31f-8de03579dc60",
@@ -500,6 +524,14 @@
                 "id": "0fa62167-2f8b-4109-853c-1d25d100f8a2",
                 "resourcePath": "sprites\\spr_knocking_window\\spr_knocking_window.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "63430b64-98d8-47b5-bb0d-52516fca3425",
+            "Value": {
+                "id": "901c19ee-1a30-42cf-a023-b88df3b846e0",
+                "resourcePath": "views\\63430b64-98d8-47b5-bb0d-52516fca3425.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -828,6 +860,14 @@
                 "id": "b2e00f20-10ca-41a1-bc4f-f6917d41b945",
                 "resourcePath": "sprites\\spr_toychest_shaking\\spr_toychest_shaking.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9d44fe55-d7c3-455e-9d85-22a6572e2bb0",
+            "Value": {
+                "id": "0f24ba8d-d6a3-4349-b6e1-28a64f78e047",
+                "resourcePath": "sounds\\sn_scream\\sn_scream.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1271,6 +1311,14 @@
             }
         },
         {
+            "Key": "ee4433b6-12e0-440e-8427-c3008de5b494",
+            "Value": {
+                "id": "9699047e-cc2c-4dd2-939e-7013adfe9f1c",
+                "resourcePath": "sounds\\sn_door_knock\\sn_door_knock.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "ee77f8d6-9a79-43ab-917a-5d14afc1e15f",
             "Value": {
                 "id": "4ed12d32-9204-4095-b2c8-248701250128",
@@ -1292,6 +1340,14 @@
                 "id": "9229e671-90e1-4718-8667-0017650e06d6",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f4494b49-6c8b-40fd-b0fc-12813a76ec42",
+            "Value": {
+                "id": "e43ce588-fd4e-4f20-a28c-330d10dad022",
+                "resourcePath": "sounds\\sn_light_switch\\sn_light_switch.yy",
+                "resourceType": "GMSound"
             }
         },
         {
