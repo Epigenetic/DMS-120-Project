@@ -879,6 +879,14 @@
             }
         },
         {
+            "Key": "927cc43c-0e7f-4b55-8e43-3c4f14586710",
+            "Value": {
+                "id": "598d1d74-87c9-496d-86b5-9c46d4c9e9a0",
+                "resourcePath": "sprites\\spr_level_start_animation1\\spr_level_start_animation1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "94ced7d3-f7e1-405a-a753-2af5bb300a9b",
             "Value": {
                 "id": "0f7c7d82-0f75-4a2d-b277-b0118975e987",
