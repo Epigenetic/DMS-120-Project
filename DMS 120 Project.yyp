@@ -607,6 +607,14 @@
             }
         },
         {
+            "Key": "6ef7bc43-2d2d-4da7-af64-e90fc7442b06",
+            "Value": {
+                "id": "d421e74c-04a6-4c5d-85e6-6d5fe42592cb",
+                "resourcePath": "objects\\obj_teddy_confront\\obj_teddy_confront.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "70950fa6-fdac-4a30-b049-961586efd9b3",
             "Value": {
                 "id": "eeca292f-2f1c-4253-a6a2-5faeffc390da",

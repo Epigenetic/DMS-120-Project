@@ -10,6 +10,6 @@ switch(room){
 	break
 	
 	case rm_level3:
-	
+	self.teddy = instance_create_depth(self.x,self.y,self.depth,obj_teddy_confront)
 	break
 }
