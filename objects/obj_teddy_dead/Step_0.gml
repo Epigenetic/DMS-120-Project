@@ -1,6 +1,8 @@
 // Inherit the parent event
 event_inherited();
 
+audio_play_sound(sn_death,10,false)
+
 if(self.sprite_index = spr_teddy_lying_down){
 	self.waiting = true
 }

@@ -1111,6 +1111,14 @@
             }
         },
         {
+            "Key": "c37fc294-7b38-414d-ac97-f094acb73f32",
+            "Value": {
+                "id": "556c0320-2399-403f-baca-74acd06e93b9",
+                "resourcePath": "objects\\obj_night_end\\obj_night_end.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c3bd9d1a-090a-4d96-a6cc-20a8f7835875",
             "Value": {
                 "id": "998c6db0-df9e-42a9-b3ec-592cb55eca5a",

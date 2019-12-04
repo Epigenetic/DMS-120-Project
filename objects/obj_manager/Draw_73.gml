@@ -32,5 +32,7 @@ if health <= 0{
 	instance_destroy(self)
 	//room_goto(rm_title)
 }else if instance_number(obj_enemy) == 0 && instance_number(obj_spawn) == 0{
-	instance_create_depth(0,0,self.depth,obj_transition)
+	instance_create_depth(self.x,self.y,self.depth,obj_teddy_end)
+	instance_create_depth(960,-192,self.depth,obj_night_end)
+	instance_destroy(self)
 }
