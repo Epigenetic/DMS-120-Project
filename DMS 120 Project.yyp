@@ -855,14 +855,6 @@
             }
         },
         {
-            "Key": "90c4eb62-4fc1-4d8c-a9df-a4eee24153ec",
-            "Value": {
-                "id": "cea1762c-076e-4a87-a224-288f7af3353b",
-                "resourcePath": "sprites\\spr_while_knocking\\spr_while_knocking.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "90c72562-cc1d-44ea-9680-3cbb7f5b7fc6",
             "Value": {
                 "id": "15d19cb9-c2dd-44b1-9a92-c8039490781e",
