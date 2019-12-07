@@ -647,6 +647,14 @@
             }
         },
         {
+            "Key": "73ad435b-7f5f-4553-ad96-cb9f3da433dd",
+            "Value": {
+                "id": "4f63248c-f01a-4329-a8e1-bd08f5f4a9b5",
+                "resourcePath": "sprites\\spr_bed_with_teddy\\spr_bed_with_teddy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "75d450c2-8147-4def-bf15-df52367deca1",
             "Value": {
                 "id": "ad8c92ae-3932-48a3-865c-54585720bee8",
