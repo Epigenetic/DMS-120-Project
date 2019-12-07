@@ -10,7 +10,7 @@ if(instance_number(obj_spawn) != 0){
 			self.nasty_time--
 		}else if (self.nasty_time == 0){
 			//show_debug_message("Changed sprite")
-			if(instance_number(obj_toy) < 1){
+			if(instance_number(obj_toy) < 3){
 				self.sprite_index = spr_toychest_shaking
 				if(!audio_is_playing(sn_chestcreak) && room == rm_level3)
 					audio_play_sound(sn_chestcreak,10,true)
