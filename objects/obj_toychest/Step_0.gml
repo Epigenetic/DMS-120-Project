@@ -10,9 +10,9 @@ if(instance_number(obj_spawn) != 0){
 			self.nasty_time--
 		}else if (self.nasty_time == 0){
 			//show_debug_message("Changed sprite")
-			if(instance_number(obj_toy) < 1){
+			if(instance_number(obj_toy) < 3){
 				self.sprite_index = spr_toychest_shaking
-				if(!audio_is_playing(sn_chestcreak))
+				if(!audio_is_playing(sn_chestcreak) && room == rm_level3)
 					audio_play_sound(sn_chestcreak,10,true)
 				self.nasty_time = 200
 			}else{
@@ -26,7 +26,7 @@ if(instance_number(obj_spawn) != 0){
 			}else{
 				self.sprite_index = spr_toychest_open
 				instance_create_depth(self.x,self.y + self.sprite_height*1.5,self.depth,obj_toy)
-				self.nasty_time = floor(random_range(0,20)*20)
+				self.nasty_time = floor(random_range(200,20)*20)
 			}
 		}
 	}
@@ -59,5 +59,5 @@ if(self.spawn_timer == 0){
 		pickup.sprite_index = spr_freeze
 		break
 	}
-	self.spawn_timer = 5
+	self.spawn_timer = 2
 }

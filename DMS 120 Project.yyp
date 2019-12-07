@@ -551,14 +551,6 @@
             }
         },
         {
-            "Key": "63430b64-98d8-47b5-bb0d-52516fca3425",
-            "Value": {
-                "id": "901c19ee-1a30-42cf-a023-b88df3b846e0",
-                "resourcePath": "views\\63430b64-98d8-47b5-bb0d-52516fca3425.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "642bc560-784f-4501-8afe-21d87e066f6a",
             "Value": {
                 "id": "2a902743-3e7b-4e44-8840-641e5b9f3082",
@@ -859,14 +851,6 @@
             "Value": {
                 "id": "63091b50-d76d-4446-bf38-276c632f80a8",
                 "resourcePath": "sprites\\spr_teddy_up_walk\\spr_teddy_up_walk.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "90c4eb62-4fc1-4d8c-a9df-a4eee24153ec",
-            "Value": {
-                "id": "cea1762c-076e-4a87-a224-288f7af3353b",
-                "resourcePath": "sprites\\spr_while_knocking\\spr_while_knocking.yy",
                 "resourceType": "GMSprite"
             }
         },
