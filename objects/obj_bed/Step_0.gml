@@ -1,4 +1,4 @@
-show_debug_message(instance_number(obj_knock))
+//show_debug_message(instance_number(obj_knock))
 if(instance_number(obj_knock) > 0){
 	self.sprite_index = spr_while_knocking
 }else if(!self.start && instance_number(obj_knock) == 0){

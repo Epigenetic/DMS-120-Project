@@ -2,7 +2,7 @@ if other.type == noone
 	return;
 switch(other.type){
 	case spr_fluff:
-	if(health < 10){
+	if(health < 6){
 		health++
 	}
 	audio_play_sound(sn_healthpickup,10,false)

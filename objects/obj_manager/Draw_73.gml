@@ -14,7 +14,7 @@ while(i < health){
 		draw_sprite(spr_health_half,0,16 + j++*64,32)
 	}
 }
-while(i < 10){
+while(i < 6){
 	if i % 2 == 1{
 		i++
 		continue
