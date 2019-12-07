@@ -527,14 +527,6 @@
             }
         },
         {
-            "Key": "63430b64-98d8-47b5-bb0d-52516fca3425",
-            "Value": {
-                "id": "901c19ee-1a30-42cf-a023-b88df3b846e0",
-                "resourcePath": "views\\63430b64-98d8-47b5-bb0d-52516fca3425.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "642bc560-784f-4501-8afe-21d87e066f6a",
             "Value": {
                 "id": "2a902743-3e7b-4e44-8840-641e5b9f3082",
@@ -860,14 +852,6 @@
                 "id": "b2e00f20-10ca-41a1-bc4f-f6917d41b945",
                 "resourcePath": "sprites\\spr_toychest_shaking\\spr_toychest_shaking.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "9d44fe55-d7c3-455e-9d85-22a6572e2bb0",
-            "Value": {
-                "id": "0f24ba8d-d6a3-4349-b6e1-28a64f78e047",
-                "resourcePath": "sounds\\sn_scream\\sn_scream.yy",
-                "resourceType": "GMSound"
             }
         },
         {
