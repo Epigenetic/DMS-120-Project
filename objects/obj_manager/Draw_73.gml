@@ -36,6 +36,6 @@ if health <= 0{
 	instance_destroy(obj_dark)
 	if(room != rm_level3)
 		instance_create_depth(self.x,self.y,self.depth,obj_teddy_end)
-	instance_create_depth(960,-192,self.depth,obj_night_end)
+	instance_create_depth(2048,-150,self.depth,obj_night_end)
 	instance_destroy(self)
 }
