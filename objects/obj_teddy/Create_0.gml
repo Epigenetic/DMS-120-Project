@@ -19,3 +19,5 @@ left_arr = [spr_teddy_left, spr_dmg_halo_left,spr_speed_halo_left,spr_freeze_hal
 left_walk_arr = [spr_teddy_left_walk, spr_dmg_halo_left_walk,spr_speed_halo_left_walk,spr_freeze_halo_left_walk]
 
 self.sprite_array = down_arr //array to draw from
+
+randomize() //randomize seed so rng is different game to game
