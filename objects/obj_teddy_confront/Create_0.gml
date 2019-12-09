@@ -5,3 +5,4 @@ self.y = teddy.y
 instance_destroy(teddy)
 self.image_xscale = 2
 self.image_yscale = 2
+self.depth = -200
